@@ -1,9 +1,28 @@
 import "./App.css";
+import {
+  Home,
+  About,
+  Skills,
+  Education,
+  Projects,
+  Contact,
+} from "../pages/index";
 
 function App() {
   return (
     <div className="app">
-      <h1>Guruprasad Pandit</h1>
+      <div className="app__sidebar">
+        <h1>Sidebar</h1>
+      </div>
+      <div className="app__content">
+        <h1>Content</h1>
+        <Home />
+        <About />
+        <Skills />
+        <Education />
+        <Projects />
+        <Contact />
+      </div>
     </div>
   );
 }
