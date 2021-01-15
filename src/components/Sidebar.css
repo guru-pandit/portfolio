@@ -1,0 +1,43 @@
+.sidebar {
+  text-align: center;
+}
+
+.sidebar__logo {
+  margin-bottom: 1rem;
+}
+
+.sidebar__logo img {
+  display: block;
+  height: 50px;
+  width: 50px;
+  margin: 0 auto;
+}
+
+.sidebar__profileImage {
+  display: block;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid #7ec8e3;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+}
+
+.sidebar__profileName {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #050a30;
+  margin-bottom: 1rem;
+}
+
+.sidebar__profilePost {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #000c66;
+}
+
+.sidebar__icons {
+  background-color: #e6f4fa;
+  margin-bottom: 2.5rem;
+  padding: 0.5rem;
+}

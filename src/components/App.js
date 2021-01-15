@@ -7,22 +7,44 @@ import {
   Projects,
   Contact,
 } from "../pages/index";
+import Sidebar from "./Sidebar";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
   return (
     <div className="app">
-      <div className="app__sidebar">
-        <h1>Sidebar</h1>
-      </div>
-      <div className="app__content">
-        <h1>Content</h1>
-        <Home />
-        <About />
-        <Skills />
-        <Education />
-        <Projects />
-        <Contact />
-      </div>
+      <Router>
+        <div className="app__sidebar">
+          <Sidebar />
+        </div>
+        <div className="app__content">
+          <Switch>
+            <Route exact path="/">
+              <Home />
+            </Route>
+
+            <Route path="/about">
+              <About />
+            </Route>
+
+            <Route path="/skills">
+              <Skills />
+            </Route>
+
+            <Route path="/education">
+              <Education />
+            </Route>
+
+            <Route path="/projects">
+              <Projects />
+            </Route>
+
+            <Route path="/contact">
+              <Contact />
+            </Route>
+          </Switch>
+        </div>
+      </Router>
     </div>
   );
 }

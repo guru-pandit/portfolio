@@ -1,0 +1,19 @@
+.app {
+  height: 100vh;
+  width: 100%;
+  max-width: 1140px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-column-gap: 10px;
+}
+
+.app__sidebar {
+  grid-column: 1 / 4;
+  background-color: #f2f9fc;
+}
+
+.app__content {
+  grid-column: 4 / 11;
+  border: 2px solid red;
+}
