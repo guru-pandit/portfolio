@@ -6,8 +6,8 @@ import {
   Education,
   Projects,
   Contact,
-} from "../pages/index";
-import Sidebar from "./Sidebar";
+} from "./pages/index";
+import Sidebar from "./components/Sidebar";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {

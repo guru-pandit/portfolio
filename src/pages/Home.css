@@ -1,0 +1,44 @@
+.home {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.home__text {
+  font-size: 1.6rem;
+  color: #050a30;
+  margin-left: 9rem;
+}
+
+.home p {
+  font-weight: 800;
+  color: #00f;
+}
+
+.home__name {
+  font-size: 6rem;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+}
+
+.home__pos {
+  font-size: 3.2rem;
+  font-weight: 800;
+}
+
+.home__pos span {
+  color: #00f;
+  position: relative;
+}
+
+.home__pos span::after {
+  content: "";
+  display: block;
+  height: 40px;
+  width: 3px;
+  background-color: #050a30;
+  position: absolute;
+  right: -7px;
+  top: 50%;
+  transform: translateY(-50%);
+}

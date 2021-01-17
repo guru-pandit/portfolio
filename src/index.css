@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  line-height: 1.2;
 }
 
 :root {
@@ -13,7 +14,6 @@
 body {
   font-family: "Montserrat", sans-serif;
   letter-spacing: 1px;
-  line-height: 150%;
 }
 
 a {
