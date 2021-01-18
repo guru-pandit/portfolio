@@ -1,0 +1,30 @@
+.about {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.about__content {
+  margin-left: 9rem;
+}
+
+.about__details {
+  margin-bottom: 4rem;
+}
+
+.about__details td {
+  font-size: 1.6rem;
+  font-weight: 600;
+  padding-right: 2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  text-align: left;
+}
+
+.about__details tr td:first-child {
+  color: #000c66;
+}
+
+.about__details tr td:last-child {
+  color: #696c83;
+}

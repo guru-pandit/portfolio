@@ -1,0 +1,9 @@
+.education {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.education__content {
+  margin-left: 9rem;
+}

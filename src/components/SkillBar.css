@@ -1,0 +1,74 @@
+.skillbar {
+  width: 90%;
+  max-width: 500px;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.skillbar__icon {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: #00f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1rem;
+}
+
+.skillbar__icon i {
+  font-size: 2.4rem;
+  color: #fff;
+}
+
+.skillbar__content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.skillbar__name {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #000c66;
+  margin-bottom: 1rem;
+}
+
+.skillbar__progressContainer {
+  background-color: #e6f4fa;
+  height: 6px;
+  border: 1px solid #7ec8e3;
+  border-radius: 10px;
+}
+
+.skillbar__progress {
+  height: 100%;
+  background-color: #00f;
+  border-radius: 10px;
+  position: relative;
+}
+
+.skillbar__progress::after {
+  content: "";
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #00f;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.skillbar__progressPercent {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #000c66;
+  position: absolute;
+  right: 0;
+  top: -30px;
+  transform: translateX(50%);
+}

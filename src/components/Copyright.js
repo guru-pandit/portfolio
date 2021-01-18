@@ -11,7 +11,7 @@ function Copyright() {
       </p>
       <p className="copyright__developer">
         Developed By
-        <span className="copyright__developerName">Guruprasad Pandit</span>
+        <span className="copyright__developerName"> Guruprasad Pandit</span>
       </p>
     </div>
   );
