@@ -43,7 +43,7 @@ function About() {
           </table>
         </div>
 
-        <Button btnText="Download Resume" />
+        <Button type="button" btnText="Download Resume" />
       </div>
     </div>
   );

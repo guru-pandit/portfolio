@@ -1,0 +1,21 @@
+.inputBox {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.inputBox__input {
+  width: 100%;
+  outline: none;
+  font-size: 1.6rem;
+  font-weight: 500;
+  padding: 1rem;
+  color: #000c66;
+  letter-spacing: 1px;
+  border: 1px solid #696c83;
+  border-radius: 5px;
+}
+
+.inputBox__input::placeholder {
+  color: #696c83;
+  letter-spacing: 1px;
+}

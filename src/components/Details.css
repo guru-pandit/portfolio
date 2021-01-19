@@ -1,0 +1,34 @@
+.detail {
+  margin-bottom: 3rem;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+}
+
+.detail__icon {
+  height: 80px;
+  width: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: #00f;
+  margin-right: 1rem;
+}
+
+.detail__icon i {
+  font-size: 3rem;
+  color: #fff;
+}
+
+.detail__content {
+  flex: 1;
+}
+
+.detail__text {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #696c83;
+}

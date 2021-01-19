@@ -2,15 +2,15 @@
   margin: 0 7rem;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
-.socialIcon .MuiSvgIcon-root {
+.socialIcon i {
   font-size: 3rem;
   color: #8c96a9;
-  transition: all 0.2s linear;
+  transition: all 0.3s linear;
 }
 
-.socialIcon a:hover .MuiSvgIcon-root {
+.socialIcon a:hover i {
   color: #00f;
 }
