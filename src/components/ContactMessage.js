@@ -5,7 +5,7 @@ import Input from "./Input";
 
 function ContactMessage() {
   return (
-    <div className="message">
+    <div className="col-md-6 message">
       <form>
         <Input type="text" placeholder="Your Name" />
         <Input type="email" placeholder="Your Email" />

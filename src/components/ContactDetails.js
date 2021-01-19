@@ -4,7 +4,7 @@ import Details from "./Details";
 
 function ContactDetails() {
   return (
-    <div className="details">
+    <div className="col-md-6 details">
       <Details
         text="Songiri, Sangameshwar, Dist. Ratnagiri, 415637"
         icon="far fa-map"

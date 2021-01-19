@@ -4,12 +4,7 @@
   align-items: center;
 }
 
-.contact__content {
-  width: 100%;
-  margin-left: 9rem;
-}
-
 .contact__container {
-  width: 100%;
-  display: flex;
+  /* width: 100%; */
+  /* display: flex; */
 }

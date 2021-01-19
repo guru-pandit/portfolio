@@ -13,7 +13,8 @@ function Contact() {
 
         <SubHeading text="Get In Touch" />
 
-        <div className="contact__container">
+        {/* <div className="contact__container"> */}
+        <div className="row">
           <ContactDetails />
           <ContactMessage />
         </div>
