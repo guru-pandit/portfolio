@@ -17,3 +17,11 @@ a {
   text-decoration: none;
   cursor: pointer;
 }
+
+button {
+  outline: none !important;
+}
+
+button:active {
+  outline: none !important;
+}

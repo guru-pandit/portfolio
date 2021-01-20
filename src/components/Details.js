@@ -5,7 +5,7 @@ function Details({ icon, text }) {
   return (
     <div className="detail">
       <div className="detail__icon">
-        <i class={icon}></i>
+        <i className={icon}></i>
       </div>
 
       <div className="detail__content">

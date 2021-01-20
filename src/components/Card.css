@@ -1,5 +1,66 @@
-.card {
-  height: 200px;
-  width: 200px;
-  border: 2px solid red;
+/* .card {
+  height: 400px;
+  width: 500px;
+} */
+
+.card__wrapper {
+  height: 400px;
+  width: 700px;
+  position: relative;
+  padding: 0.5rem;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+.card__image {
+  height: 100%;
+  width: 100%;
+}
+
+.card__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card__content {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 1rem 2rem;
+  width: 100%;
+  position: absolute;
+  bottom: -80%;
+  left: 0;
+  transition: all 0.3s linear;
+}
+
+.card:hover .card__content {
+  bottom: 0;
+}
+
+.card__heading {
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: #000c66;
+  padding-bottom: 1rem;
+}
+
+.card__description {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #050a30;
+  padding-bottom: 1rem;
+}
+
+.card__description span {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #000c66;
+}
+
+.card__buttons {
+  display: flex;
+}
+
+.card__buttons button {
+  margin-right: 2rem;
 }

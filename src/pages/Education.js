@@ -50,7 +50,7 @@ function Education() {
         <div className="education__details">
           {myEducation.map(({ id, year, stream, university, info }) => (
             <Course
-              key="id"
+              key={id}
               year={year}
               stream={stream}
               university={university}

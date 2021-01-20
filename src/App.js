@@ -14,12 +14,12 @@ function App() {
   return (
     <div className="app">
       <Router>
-        <div className="container">
+        <div className="container-fluid">
           <div className="row">
-            <div className="col-lg-3 app__sidebar">
+            <div className="col-md-3 app__sidebar">
               <Sidebar />
             </div>
-            <div className="col-lg-9 app__content">
+            <div className="col-md-9 app__content">
               <Switch>
                 <Route exact path="/">
                   <Home />

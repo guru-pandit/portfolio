@@ -9,24 +9,24 @@ function SocialIcons() {
         target="_blank"
         rel="noreferrer"
       >
-        <i class="fab fa-linkedin"></i>
+        <i className="fab fa-linkedin"></i>
       </a>
       <a href="https://github.com/guru-pandit" target="_blank" rel="noreferrer">
-        <i class="fab fa-github-square"></i>
+        <i className="fab fa-github-square"></i>
       </a>
       <a
         href="https://www.instagram.com/_guru_pandit/"
         target="_blank"
         rel="noreferrer"
       >
-        <i class="fab fa-instagram-square"></i>
+        <i className="fab fa-instagram-square"></i>
       </a>
       <a
         href="https://www.facebook.com/guru.pandit.58"
         target="_blank"
         rel="noreferrer"
       >
-        <i class="fab fa-facebook-square"></i>
+        <i className="fab fa-facebook-square"></i>
       </a>
     </div>
   );
