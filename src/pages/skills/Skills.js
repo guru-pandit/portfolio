@@ -1,7 +1,5 @@
 import React from "react";
-import Heading from "../components/Heading";
-import SkillBar from "../components/SkillBar";
-import SubHeading from "../components/SubHeading";
+import { SkillBar, Heading, SubHeading } from "@components";
 import "./Skills.css";
 
 const mySkills = [

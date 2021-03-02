@@ -1,23 +1,25 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import Copyright from "./Copyright";
 import Navigation from "./Navigation";
-import "./Sidebar.css";
 import SocialIcons from "./SocialIcons";
-import { NavLink } from "react-router-dom";
+import ProfileImage from "@assets/images/profile.jpg";
+import Logo from "@assets/images/logo.svg";
+import "./Sidebar.css";
 
 function Sidebar() {
   return (
     <div className="sidebar">
       <div className="sidebar__logo">
         <NavLink to="/">
-          <img src="images/logo.svg" alt="Logo" />
+          <img src={Logo} alt="Logo" />
         </NavLink>
       </div>
 
       <div className="sidebar__profile">
         <img
           className="sidebar__profileImage"
-          src="images/profile.jpg"
+          src={ProfileImage}
           alt="Profile"
         />
         <h1 className="sidebar__profileName">Guruprasad Pandit</h1>

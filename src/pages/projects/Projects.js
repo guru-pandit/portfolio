@@ -1,8 +1,6 @@
 import React from "react";
 import "./Projects.css";
-import Card from "../components/Card";
-import Heading from "../components/Heading";
-import SubHeading from "../components/SubHeading";
+import { Card, Heading, SubHeading } from "@components";
 import Carousel from "react-material-ui-carousel";
 
 const myProjects = [

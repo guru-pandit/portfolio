@@ -1,7 +1,7 @@
 import React from "react";
-import Button from "./Button";
+import { Button } from "../../components/index";
+import { Input } from "../../components/index";
 import "./ContactMessage.css";
-import Input from "./Input";
 
 function ContactMessage() {
   return (

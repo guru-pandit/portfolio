@@ -1,7 +1,5 @@
 import React from "react";
-import Course from "../components/Course";
-import Heading from "../components/Heading";
-import SubHeading from "../components/SubHeading";
+import { Course, Heading, SubHeading } from "@components";
 import "./Education.css";
 
 const myEducation = [

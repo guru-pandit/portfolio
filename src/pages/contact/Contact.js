@@ -1,8 +1,10 @@
 import React from "react";
-import ContactDetails from "../components/ContactDetails";
-import ContactMessage from "../components/ContactMessage";
-import Heading from "../components/Heading";
-import SubHeading from "../components/SubHeading";
+import {
+  ContactDetails,
+  ContactMessage,
+  Heading,
+  SubHeading,
+} from "@components";
 import "./Contact.css";
 
 function Contact() {

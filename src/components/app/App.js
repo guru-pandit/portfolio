@@ -1,13 +1,8 @@
 import "./App.css";
-import {
-  Home,
-  About,
-  Skills,
-  Education,
-  Projects,
-  Contact,
-} from "./pages/index";
-import Sidebar from "./components/Sidebar";
+// import { Home, About, Skills, Education, Projects, Contact } from "@pages";
+// import Sidebar from "../sidebar/Sidebar";
+import { Sidebar } from "@components/";
+import { Home, About, Skills, Education, Projects, Contact } from "@pages/";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
