@@ -1,7 +1,7 @@
 import React from "react";
 import "./Course.css";
 
-function Course({ year, stream, university, info }) {
+function Course({ education }) {
   return (
     <div className="course">
       <div className="course__icon">
@@ -9,10 +9,10 @@ function Course({ year, stream, university, info }) {
       </div>
 
       <div className="course__deatils">
-        <p className="course__year">{year}</p>
-        <h3 className="course__stream">{stream}</h3>
-        <h2 className="course__university">{university}</h2>
-        <p className="course__info">{info}</p>
+        <p className="course__year">{education.year}</p>
+        <h3 className="course__stream">{education.stream}</h3>
+        <h2 className="course__university">{education.university}</h2>
+        <p className="course__info">{education.info}</p>
       </div>
     </div>
   );
