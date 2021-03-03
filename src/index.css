@@ -25,3 +25,17 @@ button {
 button:active {
   outline: none !important;
 }
+
+@media (max-width: 480px) {
+  :root {
+    font-size: 50%;
+  }
+}
+
+.dis-none {
+  display: none;
+}
+
+.dis-block {
+  display: block;
+}

@@ -1,5 +1,4 @@
 import React from "react";
-import { Button } from "../../components/index";
 import "./Card.css";
 
 function Card({ project }) {
@@ -16,8 +15,22 @@ function Card({ project }) {
           </p>
 
           <div className="card__buttons">
-            <Button type="button" btnText="View Live" />
-            <Button type="button" outlined btnText="View Code" />
+            <a
+              href={project.live}
+              target="_blank"
+              rel="noreferrer"
+              className="card__button card__button--filled"
+            >
+              View Live
+            </a>
+            <a
+              href={project.code}
+              target="_blank"
+              rel="noreferrer"
+              className="card__button card__button--outlined"
+            >
+              View Code
+            </a>
           </div>
         </div>
       </div>

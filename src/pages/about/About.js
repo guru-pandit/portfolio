@@ -1,8 +1,5 @@
 import React from "react";
 import { Button, Heading, SubHeading } from "@components";
-// import Button from "../components/Button";
-// import Heading from "../components/Heading";
-// import SubHeading from "../components/SubHeading";
 import "./About.css";
 
 function About() {

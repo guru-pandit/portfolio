@@ -1,8 +1,10 @@
 .sidebar {
   text-align: center;
+  position: relative;
 }
 
 .sidebar__logo {
+  width: 100%;
   margin-bottom: 1rem;
 }
 
@@ -11,6 +13,18 @@
   height: 50px;
   width: 50px;
   margin: 0 auto;
+}
+
+.sidebar__menuIcon {
+  display: none;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+}
+
+.sidebar__menuIcon i {
+  font-size: 4rem;
 }
 
 .sidebar__profileImage {
@@ -39,4 +53,21 @@
 .sidebar__icons {
   margin-bottom: 2.5rem;
   padding: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .sidebar__logo {
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .sidebar__menuIcon {
+    display: block;
+  }
+
+  .sidebar__profile {
+    display: none;
+  }
 }

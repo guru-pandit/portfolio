@@ -1,12 +1,7 @@
-import { Button } from "../../components/index";
-import { Input } from "../../components/index";
+import { Button, Input } from "@components/";
 import "./ContactMessage.css";
-
 import { useSelector, useDispatch } from "react-redux";
-import {
-  setMessageDetails,
-  resetMessageDetails,
-} from "src/actions/messageAction";
+import { setMessageDetails, resetMessageDetails } from "@actions/messageAction";
 
 import * as emailjs from "emailjs-com";
 

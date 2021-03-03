@@ -5,6 +5,10 @@
   justify-content: space-around;
 }
 
+.socialIcon > a {
+  margin: 0 1rem;
+}
+
 .socialIcon i {
   font-size: 3rem;
   color: #8c96a9;
@@ -13,4 +17,10 @@
 
 .socialIcon a:hover i {
   color: #00f;
+}
+
+@media (max-width: 768px) {
+  .socialIcon {
+    margin: 0 15rem;
+  }
 }

@@ -5,7 +5,7 @@
 
 .card__wrapper {
   height: 400px;
-  width: 700px;
+  width: 100%;
   position: relative;
   padding: 0.5rem;
   box-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
@@ -61,6 +61,39 @@
   display: flex;
 }
 
-.card__buttons button {
+.card__buttons .card__button {
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 2px solid #00f;
+  border-radius: 5px;
+  padding: 1rem 1.5rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 1px;
+  text-transform: capitalize;
   margin-right: 2rem;
+}
+
+.card__buttons .card__button--filled {
+  color: #fff;
+  background-color: #00f;
+  transition: all 0.3s linear;
+}
+
+.card__buttons .card__button--filled:hover {
+  background-color: rgb(0, 0, 158);
+  border-color: rgb(0, 0, 158);
+}
+
+.card__buttons .card__button--outlined {
+  color: #00f;
+  background-color: #fff;
+  transition: all 0.3s linear;
+}
+
+.card__buttons .card__button--outlined:hover {
+  background-color: #00f;
+  color: #fff;
 }

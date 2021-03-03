@@ -3,3 +3,19 @@
   display: flex;
   align-items: center;
 }
+
+.projects__content {
+  width: 80%;
+}
+
+@media (max-width: 1199px) {
+  .projects__content {
+    width: 90%;
+  }
+}
+
+@media (max-width: 991px) {
+  .projects__content {
+    width: 100%;
+  }
+}
