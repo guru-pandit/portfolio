@@ -6,3 +6,9 @@
   color: #050a30;
   margin-bottom: 3.5rem;
 }
+
+@media (max-width: 480px) {
+  .subheading__text {
+    text-align: center;
+  }
+}

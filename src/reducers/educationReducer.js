@@ -5,7 +5,7 @@ const initState = [
     stream: "BE in Electronics & Telecommunication",
     university: "University of Mumbai",
     info:
-      "A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts.",
+      "Completed the BE from Rajendra Mane College of Engineering and Technology, Deorukh with 73% marks.",
   },
   {
     id: 2,
@@ -13,7 +13,7 @@ const initState = [
     stream: "Diploma in Electronics & Telecommunication",
     university: "MSBTE",
     info:
-      "A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts.",
+      "Completed the Diploma in Engineering from Government Polytechnic, Ratnagiri with 73% marks.",
   },
   {
     id: 3,
@@ -21,7 +21,7 @@ const initState = [
     stream: "HSC - Science",
     university: "Konkan Board",
     info:
-      "A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts.",
+      "Completed the Higher Secondary education from Junior College, Nive, Deorukh with 55% marks.",
   },
   {
     id: 4,
@@ -29,7 +29,7 @@ const initState = [
     stream: "SSC",
     university: "Kolhapur Board",
     info:
-      "A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts.",
+      "Completed the Secondary education from SKPM Highschool, Kolambe, Sangameshwar with 88% marks.",
   },
 ];
 
