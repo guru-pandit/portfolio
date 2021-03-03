@@ -3,9 +3,9 @@ const initState = [
     id: 1,
     heading: "Restaurant Website",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci obcaecati natus culpa voluptas voluptatem rem quae sunt nam error cupiditate ab, quia quos corporis officiis veritatis vitae! Similique, ratione laboriosam voluptate asperiores quidem explicabo quaerat nihil? Sunt impedit asperiores veniam?",
+      "I built this project during the Front End Development Internship at docogen.com. The Website is a single page and created using HTML, CSS, Bootstrapa, and AOS library",
     image:
-      "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?ixid=MXwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHw2fHx8ZW58MHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "https://repository-images.githubusercontent.com/327056760/cf61f300-7c21-11eb-9ff7-b14ac90557a9",
     live: "https://guru-pandit.github.io/konkan-restaurant/",
     code: "https://github.com/guru-pandit/konkan-restaurant",
   },
