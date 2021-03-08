@@ -1,0 +1,37 @@
+.buttonlink__primary {
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+  border: 2px solid #00f;
+  border-radius: 5px;
+  padding: 1rem 1.5rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  display: inline-block;
+}
+
+.buttonlink__primary--filled {
+  color: #fff;
+  background-color: #00f;
+  transition: all 0.3s linear;
+}
+
+.buttonlink__primary--filled:hover {
+  color: #fff;
+  background-color: rgb(0, 0, 158);
+  border-color: rgb(0, 0, 158);
+}
+
+.buttonlink__primary--outlined {
+  color: #00f;
+  background-color: #fff;
+  transition: all 0.3s linear;
+}
+
+.buttonlink__primary--outlined:hover {
+  background-color: #00f;
+  color: #fff;
+}

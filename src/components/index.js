@@ -1,5 +1,6 @@
 import App from "./app/App";
 import Button from "./button/Button";
+import ButtonLink from "./button/ButtonLink";
 import Card from "./card/Card";
 import ContactDetails from "./contact/ContactDetails";
 import ContactMessage from "./contact/ContactMessage";
@@ -13,6 +14,7 @@ import SkillBar from "./skills/SkillBar";
 export {
   App,
   Button,
+  ButtonLink,
   Card,
   ContactDetails,
   ContactMessage,

@@ -3,19 +3,19 @@ const initState = [
     id: 1,
     name: "HTML 5",
     icon: "fab fa-html5",
-    progress: "80%",
+    progress: "90%",
   },
   {
     id: 2,
     name: "CSS 3",
     icon: "fab fa-css3-alt",
-    progress: "75%",
+    progress: "85%",
   },
   {
     id: 3,
     name: "JavaScript",
     icon: "fab fa-js-square",
-    progress: "65%",
+    progress: "75%",
   },
   {
     id: 4,
@@ -27,7 +27,7 @@ const initState = [
     id: 5,
     name: "React JS",
     icon: "fab fa-react",
-    progress: "60%",
+    progress: "75%",
   },
   {
     id: 6,

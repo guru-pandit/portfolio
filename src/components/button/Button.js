@@ -1,7 +1,7 @@
 import React from "react";
 import "./Button.css";
 
-function Button({ btnText, outlined, type, onSubmitHandler }) {
+function Button({ btnText, outlined, type }) {
   return (
     <div className="button">
       {outlined ? (

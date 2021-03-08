@@ -1,5 +1,6 @@
 import React from "react";
-import { Button, Heading, SubHeading } from "@components";
+import { Heading, SubHeading, ButtonLink } from "@components";
+import Resume from "@assets/pdf/Guruprasad_Vishwas_Pandit.pdf";
 import "./About.css";
 
 function About() {
@@ -41,7 +42,7 @@ function About() {
           </table>
         </div>
 
-        <Button type="button" btnText="Download Resume" />
+        <ButtonLink href={Resume} btnText="Download Resume" />
       </div>
     </div>
   );
