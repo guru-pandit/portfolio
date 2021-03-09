@@ -1,1 +1,1 @@
-View Live : gurupandit.tech
+View Live: gurupandit.tech
