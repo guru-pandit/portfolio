@@ -1,6 +1,6 @@
 import React from "react";
 import { Heading, SubHeading, ButtonLink } from "@components";
-import Resume from "@assets/pdf/Guruprasad_Vishwas_Pandit.pdf";
+import Resume from "@assets/pdf/Guruprasad_Pandit.pdf";
 import "./About.css";
 
 function About() {
