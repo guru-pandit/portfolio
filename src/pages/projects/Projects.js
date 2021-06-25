@@ -16,7 +16,7 @@ function Projects() {
         <SubHeading text="My Some Projects" />
 
         <div className="projects__carousel">
-          <Carousel animation="slide" navButtonsAlwaysVisible>
+          <Carousel animation="slide" autoPlay="false" navButtonsAlwaysVisible>
             {projects?.map((project) => (
               <Card key={project.id} project={project} />
             ))}
